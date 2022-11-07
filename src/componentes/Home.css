@@ -1,0 +1,17 @@
+.contenedorPresentacion {
+  background-image: url("https://syltec.es/blog/wp-content/uploads/2021/10/Dise%C3%B1o-sin-t%C3%ADtulo-8-1024x512.jpg");
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-size: cover;
+  padding-bottom: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.presentacion{
+    display: flex;
+    justify-content: flex-end;
+}
