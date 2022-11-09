@@ -4,14 +4,49 @@
   background-repeat: no-repeat;
   background-attachment: cover;
   background-size: cover;
-  padding-bottom: 500px;
+  padding-bottom: 300px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+
 }
 
 .presentacion{
     display: flex;
     justify-content: flex-end;
+}
+
+.img-name{
+  display: flex;
+  
+}
+
+.titulo{
+  color: green;
+}
+
+.tituloNombre{
+   color: white;
+}
+
+.subtitulo{
+  color: green;
+}
+
+.nombre{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.titulos{
+  display: flex;
+  flex-direction: column;
+}
+
+.home{
+  background-color: green;
 }
