@@ -1,40 +1,37 @@
-.contenedorPresentacion {
-  background-image: url("https://syltec.es/blog/wp-content/uploads/2021/10/Dise%C3%B1o-sin-t%C3%ADtulo-8-1024x512.jpg");
-  background-position: fixed;
-  background-repeat: no-repeat;
-  background-attachment: cover;
-  background-size: cover;
-  padding-bottom: 300px;
+.todo {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
-
+  justify-content: center;
 }
-
-.presentacion{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.img-name{
+.contenedorPresentacion {
   display: flex;
-  
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.titulo{
-  color: green;
+.presentacion {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.tituloNombre{
-   color: white;
+.img-name {
+  display: flex;
 }
 
-.subtitulo{
-  color: green;
+.titulo {
+  color: rgb(244, 248, 10);
 }
 
-.nombre{
+.tituloNombre {
+  color: white;
+}
+
+.subtitulo {
+  color: rgb(244, 248, 10);
+}
+
+.nombre {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -42,11 +39,106 @@
   margin-top: 100px;
 }
 
-.titulos{
+.titulos {
   display: flex;
   flex-direction: column;
 }
 
-.home{
-  background-color: green;
+.home {
+  background-image: url("https://thumbor.cdn.classpert.com/kdPcknNJ2ipT5w_c1mdy3wm-DJw=/768x0/https%3A%2F%2Fcdn.classpert.com%2Fuploads%2Flenguajes-de-programacion-mas-usados-b52ff03c998b4649ca03334cd252d502.png");
+  background-position: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-conteiner {
+  position: fixed;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(201, 247, 248);
+  margin: 50px;
+  margin-left: 0;
+}
+
+.boton {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  background: none;
+  font-size: large;
+}
+
+.boton:hover {
+  color: rgb(244, 248, 10);
+  
+
+}
+
+.boton:focus{
+  color: rgb(244, 248, 10);
+}
+
+.cv {
+  display: flex;
+  text-decoration: none;
+  margin-top: 200px;
+  font-size: large;
+  color: black;
+}
+
+.cv:hover {
+  color: rgb(244, 248, 10);
+}
+
+.texto {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContacto {
+  height: 35px;
+  margin-right: 10px;
+  margin-top: 5px;
+  color: #84c95f;
+}
+
+.loguitos {
+  border-radius: 100px;
+  background-color: rgb(244, 248, 10);
+  padding: 10px;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.img {
+  width: 35px;
+  height: 35px;
+}
+
+.contenedorTecnologias {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 20px;
+  margin-top: 30px;
 }
