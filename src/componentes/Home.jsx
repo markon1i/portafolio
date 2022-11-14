@@ -18,7 +18,7 @@ export default function Home() {
           offset={-70}
           style={{ padding: "0 20px" }}
         >
-          <button className="boton" >Inicio</button>
+          <button className="boton">Inicio</button>
         </Link>
         <Link
           to="section2"
@@ -153,7 +153,7 @@ export default function Home() {
 
             <div className="contenedorrr">
               <div>
-                <p className="texto">
+                <p>
                   <b style={{ fontWeight: "550", color: "#84c95f" }}>
                     Dogs App !
                   </b>{" "}
@@ -193,7 +193,6 @@ export default function Home() {
           >
             <div>
               <p
-                className="texto"
                 style={{
                   width: "550px",
                   marginLeft: "60px",
@@ -529,10 +528,7 @@ export default function Home() {
                   marginBottom: "15px",
                 }}
               >
-                <h4
-                  className="texto"
-                  style={{ marginLeft: "40px", textAlign: "start" }}
-                >
+                <h4 style={{ marginLeft: "40px", textAlign: "start" }}>
                   <img
                     /* src="https://api.iconify.design/carbon:email-new.svg" */
                     src="https://cdn.icon-icons.com/icons2/1826/PNG/512/4202011emailgmaillogomailsocialsocialmedia-115677_115624.png"
@@ -540,10 +536,7 @@ export default function Home() {
                   />
                   markoschneider34@gmail.com
                 </h4>
-                <h4
-                  className="texto"
-                  style={{ textAlign: "start", marginLeft: "40px" }}
-                >
+                <h4 style={{ textAlign: "start", marginLeft: "40px" }}>
                   <img
                     /* src="https://api.iconify.design/ic:baseline-phone.svg" */
                     src="https://e7.pngegg.com/pngimages/991/503/png-clipart-yellow-telephone-logo-computer-icons-mobile-phones-telephone-font-awesome-operation-underground-railroad-inc-phone-icon-miscellaneous-angle.png"

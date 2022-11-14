@@ -142,3 +142,9 @@
   margin: 20px;
   margin-top: 30px;
 }
+
+.contenedorinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
