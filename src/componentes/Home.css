@@ -24,7 +24,7 @@
 }
 
 .tituloNombre {
-  color: white;
+  color: #ffffff;
 }
 
 .subtitulo {
@@ -51,6 +51,8 @@
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
+  image-resolution: 4k;
+  background-blend-mode: saturation;
 }
 
 .nav-conteiner {
@@ -78,11 +80,9 @@
 
 .boton:hover {
   color: rgb(244, 248, 10);
-  
-
 }
 
-.boton:focus{
+.boton:focus {
   color: rgb(244, 248, 10);
 }
 
@@ -99,11 +99,10 @@
 }
 
 .texto {
-  color: white;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: justify;
 }
 
 .imgContacto {
@@ -145,6 +144,49 @@
 
 .contenedorinfo {
   display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-left: 230px;
+  padding-right: 100px;
+}
+
+.divProyec {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedorrr {
+  display: flex;
+  flex-direction: column;
+  padding-left: 230px;
+  padding-right: 100px;
+}
+
+.contenedorrr2 {
+  padding-left: 230px;
+  padding-right: 100px;
+}
+
+.pApps {
+  display: flex;
   justify-content: center;
   align-items: center;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.quiensoy {
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.textoC {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedorrr2 {
+  padding-left: 230px;
+  padding-right: 100px;
 }
