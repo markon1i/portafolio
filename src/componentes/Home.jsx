@@ -11,6 +11,7 @@ export default function Home() {
     <div className="home">
       <nav className="nav-conteiner">
         <Link
+          className="boton"
           to="section1"
           spy={true}
           smooth={true}
@@ -18,9 +19,11 @@ export default function Home() {
           offset={-70}
           style={{ padding: "0 20px" }}
         >
-          <button className="boton">Inicio</button>
+          Inicio
+          {/* <button className="boton">Inicio</button> */}
         </Link>
         <Link
+          className="boton"
           to="section2"
           spy={true}
           smooth={true}
@@ -28,9 +31,11 @@ export default function Home() {
           offset={-70}
           style={{ padding: "0 20px" }}
         >
-          <button className="boton">Proyectos</button>
+          {/* <button className="boton">Proyectos</button> */}
+          Proyectos
         </Link>
         <Link
+          className="boton"
           to="section3"
           spy={true}
           smooth={true}
@@ -38,9 +43,11 @@ export default function Home() {
           offset={-70}
           style={{ padding: "0 20px" }}
         >
-          <button className="boton">Tecnologías</button>
+          {/* <button className="boton">Tecnologías</button> */}
+          Tecnologías
         </Link>
         <Link
+          className="boton"
           to="section4"
           spy={true}
           smooth={true}
@@ -48,7 +55,8 @@ export default function Home() {
           offset={-70}
           style={{ padding: "0 20px" }}
         >
-          <button className="boton">Contáctame</button>
+          {/* <button className="boton">Contáctame</button> */}
+          Contáctame
         </Link>
         <div className="cv">
           <a
@@ -136,10 +144,16 @@ export default function Home() {
               conocimientos y desenvolverme en lo que me gusta.😁🔔
             </p>
             <br />
-            <p className="texto">
-              ¿Creés que soy lo que tu equipo está buscando? No dudes en
-              <Link to="section4" style={{ color: "white", cursor: "pointer" }}>
-                {" "}
+            <p className="textoC">
+              ¿Creés que soy lo que tu equipo está buscando? No dudes en 
+              <Link
+                to="section4"
+                style={{
+                  color: "white",
+                  cursor: "pointer",
+                  textDecoration: "underline",
+                }}
+              >
                 contactarme.
               </Link>
             </p>
@@ -147,13 +161,18 @@ export default function Home() {
         </div>
         <div className="proyectos" id="section2">
           <div>
-            <h3 className="quiensooy" style={{ marginTop: "30px" }}>
+            <div className="contenedorrr2">
+            <h3
+              className="quiensoy"
+              style={{ marginTop: "30px", color: "white",}}
+              >
               Proyectos:
             </h3>
+              </div>
 
             <div className="contenedorrr">
-              <div>
-                <p>
+              <div className="divProyec">
+                <p className="pApps">
                   <b style={{ fontWeight: "550", color: "#84c95f" }}>
                     Dogs App !
                   </b>{" "}
@@ -165,7 +184,6 @@ export default function Home() {
                   traves de un Back-end desarrollado en NodeJS utilizando
                   Express agregando nuevas funcionalidades a la API original.
                 </p>
-                <div style={{ width: "50%", marginTop: "0" }}></div>
               </div>
               <div
                 style={{
@@ -191,15 +209,16 @@ export default function Home() {
             className="contenedorrr"
             style={{ marginTop: "25px", alignItems: "flex-start" }}
           >
-            <div>
+            <div className="divProyec">
               <p
-                style={{
+                className="pApps"
+                /* style={{
                   width: "550px",
                   marginLeft: "60px",
                   marginRight: "20px",
                   marginBottom: "0",
                   marginTop: "0",
-                }}
+                }} */
               >
                 <b style={{ fontWeight: "550", color: "#84c95f" }}>
                   Henry Fitness !
@@ -219,7 +238,6 @@ export default function Home() {
                 tres vistas totalmente diferentes y amoldándose a las
                 necesidades de todos los tipos de usuarios.{" "}
               </p>
-              <div style={{ width: "50%", marginTop: "0" }}></div>
             </div>
             <div
               style={{
