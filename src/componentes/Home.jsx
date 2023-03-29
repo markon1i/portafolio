@@ -5,6 +5,8 @@ import Tooltip from "react-bootstrap/esm/Tooltip";
 import { Link, animateScroll as scroll } from "react-scroll";
 import img from "./Sin título.jpg";
 import cv from "./CV_MARKO.pdf";
+import dog from "./DOGS.png";
+import gym from "./gym.png";
 
 export default function Home() {
   return (
@@ -129,14 +131,13 @@ export default function Home() {
             <br />
             <p className="texto">
               ✔️ luego comencé la carrera de ingeniería industrial la cual
-              estuve cursando durante dos años y por cuestiones personales
-              abandone.
+              estuve cursando durante dos años.
             </p>
             <br />
             <p className="texto">
               ✔️ después de pasar por varios trabajos me recomendaron Henry, me
-              intereso bastante y decidí abandonar mi trabajo actual para
-              probar, lo cual encontré una pasión por la programación.
+              intereso bastante y decidí probar, lo cual encontré una pasión por
+              la programación.
             </p>
             <br />
             <p className="texto">
@@ -145,13 +146,14 @@ export default function Home() {
             </p>
             <br />
             <p className="textoC">
-              ¿Creés que soy lo que tu equipo está buscando? No dudes en 
+              ¿Creés que soy lo que tu equipo está buscando? No dudes en
               <Link
                 to="section4"
                 style={{
                   color: "white",
                   cursor: "pointer",
                   textDecoration: "underline",
+                  marginLeft: "5px",
                 }}
               >
                 contactarme.
@@ -162,18 +164,26 @@ export default function Home() {
         <div className="proyectos" id="section2">
           <div>
             <div className="contenedorrr2">
-            <h3
-              className="quiensoy"
-              style={{ marginTop: "30px", color: "white",}}
+              <h3
+                className="quiensoy"
+                style={{ marginTop: "30px", color: "white" }}
               >
-              Proyectos:
-            </h3>
-              </div>
+                Proyectos:
+              </h3>
+            </div>
 
             <div className="contenedorrr">
               <div className="divProyec">
                 <p className="pApps">
-                  <b style={{ fontWeight: "550", color: "#84c95f" }}>
+                  <b
+                    style={{
+                      fontWeight: "550",
+                      color: "#84c95f",
+                      display: "flex",
+                      flexDirection: "row",
+                      justifyContent: "center",
+                    }}
+                  >
                     Dogs App !
                   </b>{" "}
                   es una Single Page Application realizada como primer proyecto
@@ -188,27 +198,51 @@ export default function Home() {
               <div
                 style={{
                   display: "flex",
-                  justifyConten: "flex-end",
+                  justifyConten: "center",
                   marginTop: "0",
                   flexDirection: "column",
                   width: "80%",
                 }}
               >
-                <a href="https://dogsclientt.vercel.app/" key="dogs">
+                <a
+                  href="https://dogsclientt.vercel.app/"
+                  key="dogs"
+                  style={{
+                    width: "750px",
+                    height: "400px",
+                    marginLeft: "100px",
+                    marginRight: "0",
+                  }}
+                >
                   <button
                     className="botonVisitar"
-                    style={{ width: "400px", cursor: "pointer" }}
+                    style={{
+                      cursor: "pointer",
+                      width: "750px",
+                      height: "400",
+                      border: "none",
+                      background: "none",
+                      color: "white",
+                      marginLeft: "0",
+                      marginRight: "0",
+                    }}
                   >
+                    <img
+                      style={{
+                        width: "750px",
+                        height: "400px",
+                        marginLeft: "0",
+                        marginRight: "0",
+                      }}
+                      src={dog}
+                    />
                     Visitar Dogs App!
                   </button>
                 </a>
               </div>
             </div>
           </div>
-          <div
-            className="contenedorrr"
-            style={{ marginTop: "25px", alignItems: "flex-start" }}
-          >
+          <div className="contenedorrr" style={{ marginTop: "25px" }}>
             <div className="divProyec">
               <p
                 className="pApps"
@@ -220,7 +254,15 @@ export default function Home() {
                   marginTop: "0",
                 }} */
               >
-                <b style={{ fontWeight: "550", color: "#84c95f" }}>
+                <b
+                  style={{
+                    fontWeight: "550",
+                    color: "#84c95f",
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "center",
+                  }}
+                >
                   Henry Fitness !
                 </b>{" "}
                 Henry Fitness! es una aplicación. Participacion en un equipo de
@@ -248,15 +290,39 @@ export default function Home() {
                 width: "80%",
               }}
             >
-              <a href="https://hfitness.vercel.app/" key="fitness">
+              <a
+                href="https://hfitness.vercel.app/"
+                key="fitness"
+                style={{
+                  cursor: "pointer",
+                  width: "750px",
+                  height: "400px",
+                  marginLeft: "100px",
+                  marginRight: "0",
+                }}
+              >
                 <button
                   className="botonVisitar"
                   style={{
-                    width: "400px",
-                    marginLeft: " 0px",
                     cursor: "pointer",
+                    width: "750px",
+                    height: "400",
+                    border: "none",
+                    background: "none",
+                    color: "white",
+                    marginLeft: "0",
+                    marginRight: "0",
                   }}
                 >
+                  <img
+                    style={{
+                      width: "750px",
+                      height: "400px",
+                      marginLeft: "0",
+                      marginRight: "0",
+                    }}
+                    src={gym}
+                  />
                   Visitar Henry Fitness!
                 </button>
               </a>
@@ -546,7 +612,7 @@ export default function Home() {
                   marginBottom: "15px",
                 }}
               >
-                <h4 style={{ marginLeft: "40px", textAlign: "start" }}>
+                <h4 style={{ marginLeft: "40px", textAlign: "start", color: "white" }}>
                   <img
                     /* src="https://api.iconify.design/carbon:email-new.svg" */
                     src="https://cdn.icon-icons.com/icons2/1826/PNG/512/4202011emailgmaillogomailsocialsocialmedia-115677_115624.png"
@@ -554,7 +620,7 @@ export default function Home() {
                   />
                   markoschneider34@gmail.com
                 </h4>
-                <h4 style={{ textAlign: "start", marginLeft: "40px" }}>
+                <h4 style={{ textAlign: "start", marginLeft: "40px", color: "white" }}>
                   <img
                     /* src="https://api.iconify.design/ic:baseline-phone.svg" */
                     src="https://e7.pngegg.com/pngimages/991/503/png-clipart-yellow-telephone-logo-computer-icons-mobile-phones-telephone-font-awesome-operation-underground-railroad-inc-phone-icon-miscellaneous-angle.png"
